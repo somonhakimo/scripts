@@ -1,0 +1,6 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Link to vscode-remote://ssh-remote%2B104.248.2.81/root/script/review.sh
+Type=Link
+URL=vscode-remote://ssh-remote%2B104.248.2.81/root/script/review.sh
+Icon=text-html

@@ -1,0 +1,1 @@
+* * * * * echo "testing cronjob $(date)" >> /root/crontask.logra
