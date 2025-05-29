@@ -8,3 +8,5 @@ mkdir $folder
 touch $folder/script.sh
 chmod 744 $folder/script.sh.
  
+
+# with read -p command we need to give input after running the script
