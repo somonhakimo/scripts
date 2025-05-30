@@ -1,0 +1,3 @@
+this is multi-line string.
+Hello from bash script.
+It can span several lines.

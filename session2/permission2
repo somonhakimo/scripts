@@ -1,0 +1,17 @@
+#!/bin/bash
+
+file=$1
+
+if [ -z  $file ]; then
+    echo "invalid argument, please provide file name"
+    echo "usage: $0 [file_name]"
+    exit
+fi
+
+if [ -f $file ]; then
+    chmod 744 $file 
+else
+    touch $file
+    chmod 744 $file
+    echo '#!/bin/bash' >> $file
+fi

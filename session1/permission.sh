@@ -12,7 +12,7 @@
 
 
 
-chmod +x $1 | echo "permissions for $1 are is given." || read -p "enter file name" file && chmod +x $file
+chmod 744 $1 && echo "permissions for $1 are is given." || read -p "enter file name" file && chmod 744 $file
 
 
 

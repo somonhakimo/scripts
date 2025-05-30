@@ -12,3 +12,6 @@ _install() {
 
 
 _install git
+
+
+# installing function
