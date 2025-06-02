@@ -15,7 +15,9 @@
 
 read -p "Enter a number to start countdown: " n
 
-while [ $n -ge 0 ]; do
+while [ $n -ge 1 ]; do
     echo "Count: $n"
     ((n--))
+    sleep 2
 done
+echo "time's up!"

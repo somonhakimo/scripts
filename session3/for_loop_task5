@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# write a script that asks the user to enter a file name.
+# use if statements to:
+# check if the file exists.
+# if it exists, check if the file is readable and writable.
+# print appropriate messages depending on whether the file exists or has the required permissions

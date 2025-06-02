@@ -10,6 +10,14 @@ lala
 
 read -p "Enter a number between 1-4 (e.g., 1, 2, 3): " number
 
+# case $choice in
+#     1) date ;;
+#     2) ls ;;
+#     3) whoami ;;
+#     4) echo "Bye" && exit ;;
+#     *) echo "invalid input. Please enter a valid day like 1, 2 etc." ;;
+# esac
+
 case $number in
     "1")
         echo "today's date is $(date)."
@@ -24,3 +32,4 @@ case $number in
         echo "GOODBYE $(exit)."
         ;;
 esac
+

@@ -1,5 +1,12 @@
 #!/bin/bash
 
+cat << haha
+1) show date
+2) list files
+3) show user
+4) exit
+haha
+
 read -p "Enter a day of the week (e.g., Mon, Tue, Wed): " day
 
 case $day in
