@@ -9,5 +9,5 @@ else
 fi
 
 
-# with this script we see that whether a digital ocean server or website is working without any issue,
+# with this script we see that whether a digital ocean servers or website is working without any issue,
 # if they are working it means our droplet is working well too.
