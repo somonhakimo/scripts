@@ -1,0 +1,19 @@
+name: Run Shell Script on Push
+
+on:
+  push:
+    branches:
+      - main # Or 'master', depending on your default branch name
+
+jobs:
+  run-my-script:
+    runs-on: ubuntu-latest # This specifies the type of machine the job will run on
+
+    steps:
+    - name: Checkout repository code # This step gets your code onto the runner
+      uses: actions/checkout@v4
+
+    - name: Run my custom shell script # This step executes your script
+      run: |
+        chmod +x myscript.sh # Make the script executable
+        ./myscript.sh # Run the script
